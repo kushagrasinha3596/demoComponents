@@ -1,8 +1,13 @@
 import React from 'react';
 
 const userComponents = (props) => {
+
+    function checkResult(){
+        console.log("Check Result Called");
+    }
+
     return (
-        <button onClick={props.checkResultCallback}>Check Result</button>
+        <button onClick={checkResult}>Check Result</button>
     );
 }
 
